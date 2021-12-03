@@ -782,6 +782,11 @@ footer {
     color: #9D2D25;
     font-weight: bold;
   }
+  .contenedor .contenedor-noseve {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 @media only screen and (min-width: 300px) {
@@ -1046,6 +1051,9 @@ footer {
     margin-right: auto;
     position: relative;
     left: 0px;
+  }
+  .contenedor .contenedor-noseve {
+    display: block;
   }
 }
 
@@ -1802,6 +1810,57 @@ footer {
     top: -60px;
     font-weight: bold;
   }
+  .cont {
+    width: 30%;
+    margin-right: 0px;
+    margin-left: 30px;
+  }
+  .cont .cont__imagen {
+    height: 300px;
+  }
+  .cont2 {
+    width: 30%;
+    margin-right: 0px;
+    margin-left: 30px;
+  }
+  .cont2 .cont__imagen {
+    height: 300px;
+    width: 100%;
+    margin-top: 0px;
+  }
+  .cont3 {
+    width: 30%;
+    margin-right: 0px;
+    margin-left: 30px;
+  }
+  .cont3 .cont__imagen {
+    height: 300px;
+  }
+  .cont4 {
+    width: 30%;
+    margin-right: 0px;
+    margin-left: 30px;
+  }
+  .cont4 .cont__imagen {
+    height: 300px;
+  }
+  .contenedor .contenedor-noseve {
+    display: none;
+  }
+  .inicio {
+    margin-top: -100px;
+  }
+  .inicio .inicio__imagen {
+    height: 650px;
+  }
+  .inicio .inicio__titulo {
+    font-weight: bolder;
+    letter-spacing: 2px;
+    position: relative;
+    top: 300px;
+    margin-top: 0px;
+    font-size: 100px;
+  }
 }
 
 @media only screen and (min-width: 1400px) {
@@ -1820,5 +1879,35 @@ footer {
     margin-top: 0px;
     font-size: 100px;
   }
+}
+
+.paginacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+}
+
+.paginacion .paginacion__ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.paginacion .paginacion__ul .paginacion__ul--item {
+  color: #9D2D25;
+  font-size: 20px;
+}
+
+.paginacion .paginacion__ul .paginacion__ul--inicio {
+  background-color: #9D2D25;
+  color: white;
+  font-size: 20px;
 }
 /*# sourceMappingURL=style.css.map */

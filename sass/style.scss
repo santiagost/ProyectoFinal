@@ -684,6 +684,11 @@ padding: 15px;
   color: #9D2D25;
   font-weight: bold;
 }
+.contenedor{
+  .contenedor-noseve{
+    display: flex;
+  }
+}
 }
 @media only screen and (min-width:300px){
   .carta{
@@ -961,6 +966,11 @@ padding: 15px;
     margin-right: auto;
     position: relative;
     left: 0px;
+  }
+  .contenedor{
+    .contenedor-noseve{
+      display: block;
+    }
   }
   
 }
@@ -1701,6 +1711,59 @@ nav{
       font-weight: bold;
     }
   }
+  .cont{
+    width: 30%;
+    margin-right: 0px;
+    margin-left: 30px ;
+    .cont__imagen{
+      height: 300px;
+    }
+  }
+  .cont2{
+    width: 30%;
+    margin-right: 0px;
+    margin-left: 30px ;
+    .cont__imagen{
+      height: 300px;
+      width: 100%;
+      margin-top: 0px;
+    }
+  }
+  .cont3{
+    width: 30%;
+    margin-right: 0px;
+    margin-left: 30px ;
+    .cont__imagen{
+      height: 300px;
+    }
+  }
+  .cont4{
+    width: 30%;
+    margin-right: 0px;
+    margin-left: 30px ;
+      .cont__imagen{
+        height: 300px;
+      }
+  }
+  .contenedor{
+    .contenedor-noseve{
+      display: none;
+    }
+  }
+  .inicio{
+    margin-top: -100px;
+    .inicio__imagen{
+      height: 650px;
+    }
+    .inicio__titulo{
+      font-weight: bolder;
+      letter-spacing: 2px;
+      position: relative;
+      top: 300px;
+      margin-top: 0px;
+      font-size: 100px;
+    }
+  }
 }
 @media only screen and (min-width: 1400px){
   .nosotros2{
@@ -1722,6 +1785,25 @@ nav{
 @media only screen and (min-width: 1500px){
   
 }
+.paginacion{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  .paginacion__ul{
+    display: flex;
+    justify-content: center;
+    .paginacion__ul--item{
+      color: #9D2D25;
+      font-size: 20px;
+    }
+    .paginacion__ul--inicio{
+      background-color: #9D2D25;
+      color: white;
+      font-size: 20px;
+    }
+  }
+}
+
   /*# sourceMappingURL=style.css.map */
   
 
