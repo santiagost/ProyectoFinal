@@ -5,7 +5,6 @@ body {
 }
 
 h2 {
-  font-style: italic;
   text-align: center;
 }
 
@@ -49,7 +48,7 @@ footer {
   margin-top: 150px;
   letter-spacing: 2px;
   font-weight: normal;
-  background-color: #9D2D25;
+  background-color: #000000;
 }
 
 .nav {
@@ -94,6 +93,47 @@ footer {
 .offcanvas__fondo {
   background-color: black;
   opacity: 100%;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer .footer__contenedor1 {
+  height: 0px;
+  width: 100%;
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.footer .footer__contenedor2 {
+  text-align: center;
+  padding-top: 50px;
+  border-top: white double 10px;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.footer .footer__contenedor2 .footer__contenedor--titulo {
+  color: white;
+  font-weight: normal;
+}
+
+.footer .footer__contenedor3 {
+  text-align: center;
+  padding-top: 50px;
+  border-top: white double 10px;
+  margin-top: 0px;
+}
+
+.footer .footer__contenedor3 .footer__contenedor--texto {
+  color: white;
 }
 
 .tamI {
@@ -215,63 +255,6 @@ footer {
   margin-bottom: 10px;
   margin-left: 34%;
   font-weight: bold;
-}
-
-.pie {
-  color: white;
-  width: 300px;
-  padding: 15px;
-  opacity: 100%;
-}
-
-.pie .pie__titulo {
-  border-bottom: solid 2px;
-  padding-bottom: 5px;
-}
-
-.pie .pie__texto {
-  padding-bottom: 10px;
-  padding-top: 15px;
-}
-
-.segundopie {
-  position: relative;
-  top: -195px;
-  left: 435px;
-  color: white;
-  width: 300px;
-  padding: 15px;
-  opacity: 100%;
-}
-
-.segundopie .segundopie__titulo {
-  border-bottom: solid 2px;
-  padding-bottom: 5px;
-}
-
-.segundopie .segundopie__texto {
-  padding-bottom: 10px;
-  padding-top: 15px;
-}
-
-.tercerpie {
-  position: relative;
-  top: -385px;
-  left: 850px;
-  color: white;
-  width: 300px;
-  padding: 15px;
-  opacity: 100%;
-}
-
-.tercerpie .tercerpie__titulo {
-  border-bottom: solid 2px;
-  padding-bottom: 5px;
-}
-
-.tercerpie .tercerpie__imagen {
-  width: 223px;
-  height: 146px;
 }
 
 .nosotros {
@@ -626,8 +609,21 @@ footer {
 
 /* Mobile first */
 @media only screen and (min-width: 250px) {
-  .carta .carta__cuerpo {
+  .carta {
     text-align: center;
+  }
+  .carta .carta__cuerpo {
+    height: 400px;
+    text-align: center;
+  }
+  .carta .carta__cuerpo .carta__cuerpo--imagen {
+    position: relative;
+    left: 0px;
+  }
+  .carta .carta__cuerpo .carta__cuerpo--enlace {
+    position: relative;
+    left: 0px;
+    margin-left: 0px;
   }
   .noseve {
     background-color: white;
@@ -652,16 +648,6 @@ footer {
     height: 700px;
     margin-top: 50px;
     margin-bottom: 0px;
-  }
-  .segundopie {
-    position: relative;
-    top: 50px;
-    left: 0px;
-  }
-  .tercerpie {
-    position: relative;
-    top: 70px;
-    left: 0px;
   }
   video {
     display: none;
@@ -1106,21 +1092,10 @@ footer {
     height: 200px;
     margin-bottom: 10px;
   }
-  .segundopie {
-    top: -180px;
-    left: 335px;
-    color: white;
-  }
   video {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-  }
-  .tercerpie__imagen {
-    display: none;
-  }
-  .tercerpie {
-    display: none;
   }
   .h1_img {
     position: absolute;
@@ -1229,6 +1204,62 @@ footer {
   }
 }
 
+@media only screen and (min-width: 800px) {
+  .footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    justify-items: center;
+    width: 100%;
+  }
+  .footer .footer__contenedor1 {
+    width: 30%;
+  }
+  .footer .footer__contenedor1 .footer__contenedor1--imagen {
+    width: 100px;
+    height: 150px;
+  }
+  .footer .footer__contenedor2 {
+    width: 33%;
+    border: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    border-left: 10px white double;
+  }
+  .footer .footer__contenedor2 .footer__contenedor--titulo {
+    color: white;
+    font-size: 19px;
+    position: relative;
+    top: 50px;
+  }
+  .footer .footer__contenedor2 .footer__contenedor--icon {
+    position: relative;
+    top: 50px;
+  }
+  .footer .footer__contenedor3 {
+    text-align: center;
+    width: 33%;
+    padding-top: 0px;
+    margin-top: 0px;
+    border-top: 0px;
+    border-left: 10px white double;
+  }
+  .footer .footer__contenedor3 .footer__contenedor--texto {
+    color: white;
+    font-size: 16px;
+    position: relative;
+    top: 50px;
+  }
+}
+
 @media only screen and (min-width: 900px) {
   .carta {
     display: -webkit-box;
@@ -1318,24 +1349,6 @@ footer {
   }
   video {
     display: none;
-  }
-  .segundopie {
-    position: relative;
-    top: -190px;
-    left: 310px;
-  }
-  .tercerpie {
-    display: block;
-    position: relative;
-    top: -380px;
-    left: 620px;
-  }
-  .tercerpie__imagen {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 223px;
-    height: 146px;
   }
   .nosotros {
     width: 70%;
@@ -1636,6 +1649,26 @@ footer {
     margin-bottom: 50px;
     height: 490px;
   }
+  .footer .footer__contenedor1 .footer__contenedor1--imagen {
+    width: 150px;
+    height: 200px;
+  }
+  .footer .footer__contenedor2 .footer__contenedor--titulo {
+    font-size: 20px;
+    position: relative;
+    top: 100px;
+    left: 10px;
+  }
+  .footer .footer__contenedor2 .footer__contenedor--icon {
+    position: relative;
+    top: 100px;
+  }
+  .footer .footer__contenedor3 .footer__contenedor--texto {
+    color: white;
+    font-size: 16px;
+    position: relative;
+    top: 100px;
+  }
 }
 
 @media only screen and (min-width: 1100px) {
@@ -1717,20 +1750,6 @@ footer {
   }
   video {
     display: none;
-  }
-  .segundopie {
-    position: relative;
-    top: -191px;
-    left: 310px;
-  }
-  .tercerpie {
-    position: relative;
-    top: -382px;
-    left: 620px;
-  }
-  .tercerpie__imagen {
-    width: 223px;
-    height: 146px;
   }
   .nosotros2 {
     height: 270px;
