@@ -451,8 +451,7 @@ padding: 15px;
     margin-bottom: 20px;
     width: 200px;
     height: 20px;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 12px;
     color: #9D2D25;
     font-weight: bold;}
 .input2{
@@ -1485,7 +1484,28 @@ padding: 15px;
 .form{
   .form__completar{
     top: 255px;
+    width: 600px;
+    border: 1px solid rgba(0, 0, 0, 0.288); 
+    padding: 20px;
+    height: 550px;
   }
+  .form__imagen--2{
+    width: 50%;
+    position: relative;
+    left: 50%;
+  }
+}
+.input{
+  width: 560px;
+  border: solid #747572 1px;
+}
+.input3{
+  left: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.input2{
+  border: solid #747572 1px;
 }
 .input4{
   top: 52px;
@@ -1716,12 +1736,8 @@ nav{
       top: 190px;
     }
   }
-  .input4{
-    top: 49px;
-    left: 60px;
-  }
   .input3{
-    left: -20px;
+    left: 0px;
   }
   nav{
     .nav__img{
