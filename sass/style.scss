@@ -74,8 +74,13 @@ footer{
     }
 }
 .offcanvas__fondo{
-    background-color: rgb(0, 0, 0);
+    background-color:#747572;
     opacity: 100%;
+}
+.offcanvas__imagen{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .footer{
   display: flex;
@@ -137,6 +142,7 @@ footer{
 }
 .nav-home{
   color: #9D2D25;
+  font-weight: bold;
 }
 
 
@@ -531,13 +537,14 @@ padding: 15px;
 }
 
 .nav-default{
-  color:  white;
+  color: black;
+  font-weight: bold;
 }
 .nav-default:hover{
   color: $bordo;
 }
 .nav-default2{
-  color: #747572;
+  color: $gris;
 }
 .nav-page{
       border-radius: 10px ;
@@ -694,7 +701,7 @@ padding: 15px;
   .carta{
     text-align: center;
     .carta__cuerpo{
-      height: 27rem;
+      height: 28rem;
       text-align: center;
       .carta__cuerpo--imagen{
         position: relative;
@@ -729,14 +736,29 @@ padding: 15px;
   .nosotros{
     height: 450px;
     .nosotros__imagen{
-      width: 100%;
+      width: 80%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
       height: 210px;
     }
 }
   .nosotros2{
-    height: 520px;
+    height: 460px;
     .nosotros__imagen{
       height: 200px;
+      width: 80%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .nosotros3{
+    .nosotros__imagen{
+      width: 80%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
   .orden__disp{
@@ -781,7 +803,7 @@ padding: 15px;
       display: block;
       margin-right: auto;
       margin-left: auto;
-      width: 80%;
+      width: 70%;
     }
   }
   .nosotros2{
@@ -790,7 +812,7 @@ padding: 15px;
       display: block;
       margin-right: auto;
       margin-left: auto;
-      width: 80%;
+      width: 70%;
     }
   }
   .nosotros3{
@@ -799,7 +821,7 @@ padding: 15px;
       display: block;
       margin-right: auto;
       margin-left: auto;
-      width: 80%;
+      width: 70%;
     }
   }
   .input4{
@@ -812,19 +834,19 @@ padding: 15px;
   .nosotros{
     height: 400px;
       .nosotros__imagen{
-        width: 70%;
+        width: 60%;
       }
   }
   .nosotros2{
     height: 420px;
       .nosotros__imagen{
-        width: 70%;    
+        width: 60%;    
       }
   }
   .nosotros3{
     height: 410px;
       .nosotros__imagen{
-        width: 70%;
+        width: 60%;
       }
   }
  
@@ -967,13 +989,16 @@ padding: 15px;
   .carta{
     .carta__cuerpo{
       text-align: center;
-      height: 600px;  
+      height: 39rem;  
       display: block;
       margin-right: auto;
       margin-left: 20px;
       .carta__cuerpo--imagen{
         position: relative;
         left: 0px;
+      }
+      .carta__cuerpo--texto{
+        font-size: 20px;
       }
     }
   }
@@ -1009,10 +1034,6 @@ padding: 15px;
 @media only screen and (min-width: 768px) {
     .nav {
       display: none;
-    }
-    footer {
-      height: 200px;
-      margin-bottom: 10px;
     }
     
     video {
@@ -1090,7 +1111,7 @@ padding: 15px;
   .carta{
     .carta__cuerpo{
       text-align: center;
-      height: 620px;  
+      height: 41rem;  
       display: block;
       margin-right: auto;
       margin-left: 20px;
@@ -1125,6 +1146,7 @@ padding: 15px;
       height: 60px;
       left: 230px;
     }
+    
 }
 @media only screen and (min-width: 800px){
   .footer{
@@ -1134,6 +1156,7 @@ padding: 15px;
     align-content: center;
     justify-items: center;
     width: 100%;
+    height: 250px;
     .footer__contenedor1{
       width: 30%;
       .footer__contenedor1--imagen{
@@ -1175,8 +1198,9 @@ padding: 15px;
   }
 }
 .carta{
+  position: relative;
   .carta__cuerpo{
-    height: 42.5rem;
+    height: 43rem;
   }
 }
 }
@@ -1189,7 +1213,7 @@ padding: 15px;
       width: 48%;
       margin-left: 0px;
       margin-bottom: 50px;
-      height: 31rem;
+      height: 33rem;
     }
   }
   .inicio{
@@ -1302,7 +1326,7 @@ padding: 15px;
         width: 315px;
         height: 220px;
         position: relative;
-        left: 400px; 
+        left: 430px; 
         margin-top: 0px;   
         margin-left: 0px;
         margin-right: 0px;    
@@ -1479,7 +1503,7 @@ nav{
       width: 48%;
       margin-left: 0px;
       margin-bottom: 50px;
-      height: 31rem;
+      height: 35rem;
     }
   }
   .footer{
@@ -1546,7 +1570,7 @@ nav{
       font-size: 27px;
     }
     .tasacion__contenedor3--texto{
-      width: 85%;
+      width: 45%;
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -1566,14 +1590,18 @@ nav{
   }
   .nosotros2{
     .nosotros__imagen{
-      left: 450px;
+      left: 470px;
+    }
+    .nosotros2__cuadro{
+      position: relative;
+      top: -220px;
     }
   }
 }
 @media only screen and (min-width: 1200px){
   .nosotros2{
     .nosotros__imagen{
-      left: 500px;
+      left: 530px;
     }
   }
 }
