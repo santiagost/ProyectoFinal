@@ -42,7 +42,7 @@ footer{
     margin-top: 150px;
     letter-spacing: 2px;
     font-weight: normal;
-    background-color: #000000;
+    background-color: $gris;
 }
 .nav{
     margin-top: 10px;
@@ -95,8 +95,8 @@ footer{
     margin-top: 50px;
     width: 100%;
     .footer__contenedor--titulo{
-      color: white;
-      font-weight: normal;
+      font-weight: bold;
+      color: black;
     }
   }
     .footer__contenedor3{
@@ -104,9 +104,11 @@ footer{
       padding-top: 50px;
       border-top: white double 10px;
       margin-top: 0px;
-    .footer__contenedor--texto{
-      color: white;
-  }
+      width: 100%;
+      .footer__contenedor--texto{
+        color: black;
+        font-weight: bold;
+      }
 }
 
 }
@@ -180,12 +182,10 @@ footer{
 width: 100%;
 display: flex;
 flex-wrap: wrap;
-height: 112rem;
 text-align: center;
 .carta__cuerpo{    
-  width: 90%;
-  height: 440px;
-  background-color: #747572;
+  width: 90%;;
+  background-color: $bordo;
   padding-top: 15px;
   position: relative;
   left:17px;
@@ -216,7 +216,7 @@ text-align: center;
       border-radius: 5px;
       width: 120px;
       padding: 15px;
-      margin-bottom: 10px;
+      margin-bottom: 50px;
       margin-left: 34%;
       font-weight: bold;
     }
@@ -550,7 +550,7 @@ padding: 15px;
   .carta{
     text-align: center;
     .carta__cuerpo{
-      height: 400px;
+      height: 25rem;
       text-align: center;
       .carta__cuerpo--imagen{
         position: relative;
@@ -566,6 +566,23 @@ padding: 15px;
     .noseve {
       background-color: white;
       
+    }
+    .inicio{
+      .inicio__titulo{
+        top: 100px;
+        left: 8px;
+      }
+      .inicio__imagen2{
+        left: 30px;
+      }
+      .inicio__container{
+        left: 20px;
+        .inicio__container--texto{
+          width: 90%;
+          position: relative;
+          left: 22px;
+        }
+      }
     }
     .nav__logo{
       width: 170px;
@@ -677,16 +694,11 @@ padding: 15px;
   .carta{
     text-align: center;
     .carta__cuerpo{
-      height: 400px;
+      height: 27rem;
       text-align: center;
       .carta__cuerpo--imagen{
         position: relative;
         left: 0px;
-      }
-      .carta__cuerpo--enlace{
-        position: relative;
-        left: 0px;
-        margin-left: 0px;
       }
     }
   }
@@ -757,13 +769,8 @@ padding: 15px;
   }    
   .carta{
     .carta__cuerpo{
-      height: 430px;
+      height: 30rem;
       text-align: center;
-      .carta__cuerpo--enlace{
-        position: relative;
-        left: 0%;
-        margin-left: 0px;
-      }
       .carta__cuerpo--imagen{
         left: 0px;
       }
@@ -880,14 +887,8 @@ padding: 15px;
   }
 }
 .carta{
-  margin-bottom: 20rem;
   .carta__cuerpo{
-    height: 470px;
-    .carta__cuerpo--enlace{
-      position: relative;
-      left: 0%;
-      margin-left: 0px;
-    }
+    height: 32rem;
   }
 }
 .tasacion{
@@ -904,12 +905,8 @@ padding: 15px;
 }
 @media only screen and (min-width: 600px){
   .carta{
-    margin-bottom: 30rem;
     .carta__cuerpo{
-      height: 520px;
-      .carta__cuerpo--enlace{
-        margin-left: 0px;
-      }
+      height: 36rem;
       .carta__cuerpo--imagen{
         margin-top: 10px;
       }
@@ -968,7 +965,6 @@ padding: 15px;
     text-align: left;
   }
   .carta{
-    margin-bottom: 42rem;
     .carta__cuerpo{
       text-align: center;
       height: 600px;  
@@ -976,10 +972,6 @@ padding: 15px;
       margin-right: auto;
       margin-left: 20px;
       .carta__cuerpo--imagen{
-        position: relative;
-        left: 0px;
-      }
-      .carta__cuerpo--enlace{
         position: relative;
         left: 0px;
       }
@@ -1096,7 +1088,6 @@ padding: 15px;
     width: 500px;
   }
   .carta{
-    margin-bottom: 50rem;
     .carta__cuerpo{
       text-align: center;
       height: 620px;  
@@ -1104,10 +1095,6 @@ padding: 15px;
       margin-right: auto;
       margin-left: 20px;
       .carta__cuerpo--imagen{
-        position: relative;
-        left: 0px;
-      }
-      .carta__cuerpo--enlace{
         position: relative;
         left: 0px;
       }
@@ -1161,10 +1148,12 @@ padding: 15px;
       margin-top: 0px;
       border-left: 10px white double;
       .footer__contenedor--titulo{
-        color: white;
+        color: black;
+        font-weight: bold;
         font-size: 19px;
         position: relative;
         top: 50px;
+        left: 5px;
       }
       .footer__contenedor--icon{
         position: relative;
@@ -1179,11 +1168,15 @@ padding: 15px;
       border-top: 0px;
       border-left: 10px white double;
     .footer__contenedor--texto{
-      color: white;
       font-size: 16px;
       position: relative;
       top: 50px;
     }
+  }
+}
+.carta{
+  .carta__cuerpo{
+    height: 42.5rem;
   }
 }
 }
@@ -1192,12 +1185,11 @@ padding: 15px;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: 30rem;
     .carta__cuerpo{
       width: 48%;
       margin-left: 0px;
       margin-bottom: 50px;
-      height: 470px;
+      height: 31rem;
     }
   }
   .inicio{
@@ -1483,12 +1475,11 @@ nav{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: 30rem;
     .carta__cuerpo{
       width: 48%;
       margin-left: 0px;
       margin-bottom: 50px;
-      height: 490px;
+      height: 31rem;
     }
   }
   .footer{
@@ -1511,8 +1502,8 @@ nav{
       }
     }
     .footer__contenedor3{
-      .footer__contenedor--texto{
-        color: white;
+      .footer__contenedor--texto{color: black;
+        font-weight: bold;
         font-size: 16px;
         position: relative;
         top: 100px;
@@ -1566,7 +1557,6 @@ nav{
 }
 @media only screen and (min-width: 1100px) {
   .carta{
-    margin-bottom: 50rem;
     .carta__cuerpo{
       width: 48%;
       margin-left: 0px;
@@ -1605,7 +1595,6 @@ nav{
     }
   }
   .carta{
-    margin-bottom: 53rem;
     left: 0px;
     .carta__cuerpo{
       height: 38rem;

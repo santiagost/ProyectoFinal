@@ -48,7 +48,7 @@ footer {
   margin-top: 150px;
   letter-spacing: 2px;
   font-weight: normal;
-  background-color: #000000;
+  background-color: #747572;
 }
 
 .nav {
@@ -121,8 +121,8 @@ footer {
 }
 
 .footer .footer__contenedor2 .footer__contenedor--titulo {
-  color: white;
-  font-weight: normal;
+  font-weight: bold;
+  color: black;
 }
 
 .footer .footer__contenedor3 {
@@ -130,10 +130,12 @@ footer {
   padding-top: 50px;
   border-top: white double 10px;
   margin-top: 0px;
+  width: 100%;
 }
 
 .footer .footer__contenedor3 .footer__contenedor--texto {
-  color: white;
+  color: black;
+  font-weight: bold;
 }
 
 .tamI {
@@ -209,14 +211,12 @@ footer {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  height: 112rem;
   text-align: center;
 }
 
 .carta .carta__cuerpo {
   width: 90%;
-  height: 440px;
-  background-color: #747572;
+  background-color: #9D2D25;
   padding-top: 15px;
   position: relative;
   left: 17px;
@@ -252,7 +252,7 @@ footer {
   border-radius: 5px;
   width: 120px;
   padding: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
   margin-left: 34%;
   font-weight: bold;
 }
@@ -647,7 +647,7 @@ footer {
     text-align: center;
   }
   .carta .carta__cuerpo {
-    height: 400px;
+    height: 25rem;
     text-align: center;
   }
   .carta .carta__cuerpo .carta__cuerpo--imagen {
@@ -661,6 +661,21 @@ footer {
   }
   .noseve {
     background-color: white;
+  }
+  .inicio .inicio__titulo {
+    top: 100px;
+    left: 8px;
+  }
+  .inicio .inicio__imagen2 {
+    left: 30px;
+  }
+  .inicio .inicio__container {
+    left: 20px;
+  }
+  .inicio .inicio__container .inicio__container--texto {
+    width: 90%;
+    position: relative;
+    left: 22px;
   }
   .nav__logo {
     width: 170px;
@@ -770,17 +785,12 @@ footer {
     text-align: center;
   }
   .carta .carta__cuerpo {
-    height: 400px;
+    height: 27rem;
     text-align: center;
   }
   .carta .carta__cuerpo .carta__cuerpo--imagen {
     position: relative;
     left: 0px;
-  }
-  .carta .carta__cuerpo .carta__cuerpo--enlace {
-    position: relative;
-    left: 0px;
-    margin-left: 0px;
   }
   .inicio .inicio__titulo {
     top: 100px;
@@ -845,13 +855,8 @@ footer {
     margin-top: 15px;
   }
   .carta .carta__cuerpo {
-    height: 430px;
+    height: 30rem;
     text-align: center;
-  }
-  .carta .carta__cuerpo .carta__cuerpo--enlace {
-    position: relative;
-    left: 0%;
-    margin-left: 0px;
   }
   .carta .carta__cuerpo .carta__cuerpo--imagen {
     left: 0px;
@@ -958,16 +963,8 @@ footer {
     position: relative;
     left: 20px;
   }
-  .carta {
-    margin-bottom: 20rem;
-  }
   .carta .carta__cuerpo {
-    height: 470px;
-  }
-  .carta .carta__cuerpo .carta__cuerpo--enlace {
-    position: relative;
-    left: 0%;
-    margin-left: 0px;
+    height: 32rem;
   }
   .tasacion .tasacion__contenedor1 .tasacion__contenedor1--titulo {
     width: 70%;
@@ -978,14 +975,8 @@ footer {
 }
 
 @media only screen and (min-width: 600px) {
-  .carta {
-    margin-bottom: 30rem;
-  }
   .carta .carta__cuerpo {
-    height: 520px;
-  }
-  .carta .carta__cuerpo .carta__cuerpo--enlace {
-    margin-left: 0px;
+    height: 36rem;
   }
   .carta .carta__cuerpo .carta__cuerpo--imagen {
     margin-top: 10px;
@@ -1040,9 +1031,6 @@ footer {
   .input3 {
     text-align: left;
   }
-  .carta {
-    margin-bottom: 42rem;
-  }
   .carta .carta__cuerpo {
     text-align: center;
     height: 600px;
@@ -1051,10 +1039,6 @@ footer {
     margin-left: 20px;
   }
   .carta .carta__cuerpo .carta__cuerpo--imagen {
-    position: relative;
-    left: 0px;
-  }
-  .carta .carta__cuerpo .carta__cuerpo--enlace {
     position: relative;
     left: 0px;
   }
@@ -1157,9 +1141,6 @@ footer {
     top: 0px;
     width: 500px;
   }
-  .carta {
-    margin-bottom: 50rem;
-  }
   .carta .carta__cuerpo {
     text-align: center;
     height: 620px;
@@ -1168,10 +1149,6 @@ footer {
     margin-left: 20px;
   }
   .carta .carta__cuerpo .carta__cuerpo--imagen {
-    position: relative;
-    left: 0px;
-  }
-  .carta .carta__cuerpo .carta__cuerpo--enlace {
     position: relative;
     left: 0px;
   }
@@ -1231,10 +1208,12 @@ footer {
     border-left: 10px white double;
   }
   .footer .footer__contenedor2 .footer__contenedor--titulo {
-    color: white;
+    color: black;
+    font-weight: bold;
     font-size: 19px;
     position: relative;
     top: 50px;
+    left: 5px;
   }
   .footer .footer__contenedor2 .footer__contenedor--icon {
     position: relative;
@@ -1249,10 +1228,12 @@ footer {
     border-left: 10px white double;
   }
   .footer .footer__contenedor3 .footer__contenedor--texto {
-    color: white;
     font-size: 16px;
     position: relative;
     top: 50px;
+  }
+  .carta .carta__cuerpo {
+    height: 42.5rem;
   }
 }
 
@@ -1264,13 +1245,12 @@ footer {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     width: 100%;
-    height: 30rem;
   }
   .carta .carta__cuerpo {
     width: 48%;
     margin-left: 0px;
     margin-bottom: 50px;
-    height: 470px;
+    height: 31rem;
   }
   .inicio {
     margin-top: 0px;
@@ -1558,13 +1538,12 @@ footer {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     width: 100%;
-    height: 30rem;
   }
   .carta .carta__cuerpo {
     width: 48%;
     margin-left: 0px;
     margin-bottom: 50px;
-    height: 490px;
+    height: 31rem;
   }
   .footer .footer__contenedor1 .footer__contenedor1--imagen {
     width: 150px;
@@ -1581,7 +1560,8 @@ footer {
     top: 100px;
   }
   .footer .footer__contenedor3 .footer__contenedor--texto {
-    color: white;
+    color: black;
+    font-weight: bold;
     font-size: 16px;
     position: relative;
     top: 100px;
@@ -1625,9 +1605,6 @@ footer {
 }
 
 @media only screen and (min-width: 1100px) {
-  .carta {
-    margin-bottom: 50rem;
-  }
   .carta .carta__cuerpo {
     width: 48%;
     margin-left: 0px;
@@ -1663,7 +1640,6 @@ footer {
     left: 290px;
   }
   .carta {
-    margin-bottom: 53rem;
     left: 0px;
   }
   .carta .carta__cuerpo {
