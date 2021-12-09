@@ -1503,6 +1503,9 @@ nav{
       margin-left: 0px;
       margin-bottom: 50px;
       height: 35rem;
+      box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.288);
+      cursor: default;
+      transition: all 400ms ease;
       .carta__cuerpo--texto{
         height: 100px;
       }
@@ -1578,6 +1581,12 @@ nav{
       margin-right: auto;
       font-size: 18px
     }
+  }
+}
+.carta{
+  .carta__cuerpo:hover{
+    transform: translateY(-3%);
+    box-shadow:1px 10px 18px rgba(0, 0, 0, 0.400);
   }
 }
 }
