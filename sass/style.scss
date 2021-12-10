@@ -1012,6 +1012,11 @@ padding: 15px;
       }
     }
   }
+  .inicio{
+    .inicio__container{
+      left: 100px;
+    }
+  }
 }
 @media only screen and (min-width: 768px) {
     .nav {
@@ -1184,6 +1189,21 @@ padding: 15px;
     height: 43rem;
   }
 }
+.nosotros{
+  .nosotros__imagen{
+    width: 50%;
+  }
+}
+.nosotros2{
+  .nosotros__imagen{
+    width: 50%;
+  }
+}
+.nosotros3{
+  .nosotros__imagen{
+    width: 50%;
+  }
+}
 }
 @media only screen and (min-width: 900px) {
   .carta{
@@ -1195,6 +1215,9 @@ padding: 15px;
       margin-left: 0px;
       margin-bottom: 50px;
       height: 33rem;
+      .carta__cuerpo--texto{
+        height: 100px;
+      }
     }
   }
   .inicio{
@@ -1619,7 +1642,7 @@ nav{
   }
   .form{
     .form__completar{
-      top: 261px;
+      top: 262px;
     }
   }
 }
@@ -1967,6 +1990,11 @@ nav{
         font-size: 30px;
         width: 70%;
       }
+    }
+  }
+  .form{
+    .form__completar{
+      top: 264px;
     }
   }
 }
