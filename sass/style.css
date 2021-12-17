@@ -66,11 +66,6 @@ footer {
   height: 70px;
 }
 
-.nav .nav__img {
-  width: 180px;
-  height: 45px;
-}
-
 .nav .nav-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -250,6 +245,14 @@ footer {
   font-weight: bold;
 }
 
+.title {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #9D2D25;
+  font-weight: bold;
+}
+
 .nosotros {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -272,7 +275,6 @@ footer {
   top: -220px;
   width: 50%;
   font-size: 15px;
-  letter-spacing: 2px;
 }
 
 .nosotros .aparecer {
@@ -306,7 +308,6 @@ footer {
   left: 100px;
   width: 50%;
   font-size: 15px;
-  letter-spacing: 2px;
   text-align: right;
 }
 
@@ -341,7 +342,6 @@ footer {
   top: -220px;
   width: 50%;
   font-size: 15px;
-  letter-spacing: 2px;
 }
 
 .nosotros3 .aparecer {
@@ -603,6 +603,7 @@ footer {
 
 .mensaje .mensaje__titulo {
   font-weight: bold;
+  color: #9D2D25;
 }
 
 .mensaje .mensaje__texto {
@@ -707,7 +708,6 @@ footer {
   }
   .nosotros .nosotros__cuadro {
     font-size: 13px;
-    letter-spacing: 2px;
     width: 100%;
     position: relative;
     top: 20px;
@@ -735,7 +735,6 @@ footer {
     width: 100%;
     text-align: center;
     font-size: 13px;
-    letter-spacing: 2px;
   }
   .nosotros3 {
     width: 100%;
@@ -750,7 +749,6 @@ footer {
   }
   .nosotros3 .nosotros__cuadro {
     font-size: 13px;
-    letter-spacing: 2px;
     width: 100%;
     position: relative;
     top: 0px;
@@ -804,12 +802,8 @@ footer {
   .nav__logo {
     left: 0px;
   }
-  .nosotros2 {
-    width: 100%;
-    height: 550px;
-  }
   .nosotros {
-    height: 450px;
+    height: 410px;
   }
   .nosotros .nosotros__imagen {
     width: 80%;
@@ -819,7 +813,7 @@ footer {
     height: 210px;
   }
   .nosotros2 {
-    height: 460px;
+    height: 400px;
   }
   .nosotros2 .nosotros__imagen {
     height: 200px;
@@ -827,6 +821,9 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+  .nosotros3 {
+    height: 410px;
   }
   .nosotros3 .nosotros__imagen {
     width: 80%;
@@ -868,6 +865,9 @@ footer {
   .carta .carta__cuerpo .carta__cuerpo--imagen {
     left: 0px;
   }
+  .nosotros {
+    height: 400px;
+  }
   .nosotros .nosotros__imagen {
     display: block;
     margin-right: auto;
@@ -875,7 +875,7 @@ footer {
     width: 70%;
   }
   .nosotros2 {
-    height: 450px;
+    height: 390px;
   }
   .nosotros2 .nosotros__imagen {
     display: block;
@@ -884,7 +884,7 @@ footer {
     width: 70%;
   }
   .nosotros3 {
-    height: 450px;
+    height: 400px;
   }
   .nosotros3 .nosotros__imagen {
     display: block;
@@ -899,19 +899,19 @@ footer {
 
 @media only screen and (min-width: 500px) {
   .nosotros {
-    height: 400px;
+    height: 370px;
   }
   .nosotros .nosotros__imagen {
     width: 60%;
   }
   .nosotros2 {
-    height: 420px;
+    height: 350px;
   }
   .nosotros2 .nosotros__imagen {
     width: 60%;
   }
   .nosotros3 {
-    height: 410px;
+    height: 370px;
   }
   .nosotros3 .nosotros__imagen {
     width: 60%;
@@ -989,7 +989,7 @@ footer {
     margin-top: 10px;
   }
   .nosotros {
-    height: 400px;
+    height: 370px;
     width: 80%;
     display: block;
     margin-right: auto;
@@ -999,7 +999,7 @@ footer {
     width: 70%;
   }
   .nosotros2 {
-    height: 420px;
+    height: 350px;
     width: 80%;
     left: -310px;
   }
@@ -1007,7 +1007,7 @@ footer {
     width: 70%;
   }
   .nosotros3 {
-    height: 410px;
+    height: 380px;
     width: 80%;
     display: block;
     margin-right: auto;
@@ -1056,7 +1056,7 @@ footer {
     width: 60%;
   }
   .nosotros2 {
-    height: 420px;
+    height: 350px;
     width: 80%;
     left: -300px;
   }
@@ -1098,7 +1098,7 @@ footer {
     height: 240px;
   }
   .nosotros2 {
-    height: 420px;
+    height: 390px;
     width: 80%;
     left: -295px;
   }
@@ -1306,7 +1306,7 @@ footer {
     height: 240px;
   }
   .nosotros2 {
-    height: 420px;
+    height: 390px;
     width: 80%;
     left: -280px;
   }
@@ -1354,10 +1354,9 @@ footer {
   .nosotros .nosotros__cuadro {
     position: relative;
     left: 350px;
-    top: -220px;
+    top: -240px;
     width: 50%;
-    font-size: 15px;
-    letter-spacing: 2px;
+    font-size: 18px;
     text-align: left;
   }
   .nosotros .aparecer {
@@ -1387,11 +1386,10 @@ footer {
   }
   .nosotros2 .nosotros2__cuadro {
     position: relative;
-    top: -240px;
+    top: -220px;
     left: 0px;
     width: 60%;
-    font-size: 15px;
-    letter-spacing: 2px;
+    font-size: 18px;
     text-align: right;
   }
   .nosotros2 .aparecer {
@@ -1420,10 +1418,9 @@ footer {
   .nosotros3 .nosotros__cuadro {
     position: relative;
     left: 350px;
-    top: -220px;
+    top: -240px;
     width: 55%;
-    font-size: 15px;
-    letter-spacing: 2px;
+    font-size: 18px;
     text-align: left;
   }
   .nosotros3 .aparecer {
@@ -1538,9 +1535,10 @@ footer {
     top: 52px;
   }
   nav .nav__img {
-    width: 180px;
-    height: 45px;
-    margin: 10px 0px 10px 0px;
+    width: 150px;
+    height: 40px;
+    padding: 0px;
+    margin: 10px 0px 0px 0px;
   }
   nav .nav-container {
     left: 140px;
@@ -1699,6 +1697,12 @@ footer {
   .nosotros2 .nosotros__imagen {
     left: 530px;
   }
+  .nosotros .nosotros__cuadro {
+    top: -210px;
+  }
+  .nosotros3 .nosotros__cuadro {
+    top: -210px;
+  }
   .carta .carta__cuerpo {
     height: 38rem;
   }
@@ -1776,12 +1780,7 @@ footer {
   .input3 {
     left: 0px;
   }
-  nav .nav__img {
-    position: relative;
-    left: 100px;
-  }
   nav .nav-container {
-    top: -60px;
     font-weight: bold;
   }
   .cont {
@@ -1867,6 +1866,9 @@ footer {
   }
   .nosotros2 .nosotros__imagen {
     left: 650px;
+  }
+  .nav .nav-item {
+    margin-right: 100px;
   }
 }
 
